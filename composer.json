@@ -15,13 +15,13 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "bash post_install.sh"
+            "@bash post_install.sh"
         ],
         "post-package-install": [
-            "bash post_install.sh"
+            "@bash post_install.sh"
         ],
         "post-root-package-install": [
-            "bash post_install.sh"
+            "@bash post_install.sh"
         ]
     },
     "autoload": {
