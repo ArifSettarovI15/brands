@@ -10,9 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.4.0",
-        "ext-curl": "*",
-        "ext-json": "*"
+        "php": ">=7.4.0"
     },
     "autoload": {
         "classmap": ["src"]
@@ -25,6 +23,10 @@
         "post-update-cmd": [
             "mkdir libraries",
             "cp -r vendor/tigerweb/brands/ libraries/brands"
+        ],
+        "post-package-install": [
+            "mkdir libraries",
+            "cp -r vendor/tigereng/brands/ libraries/brands"
         ]
     }
 }
