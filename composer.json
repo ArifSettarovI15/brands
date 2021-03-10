@@ -12,13 +12,9 @@
     "require": {
         "php": ">=7.4.0"
     },
-    "autoload": {
-        "classmap": ["src"]
-    },
     "scripts": {
         "post-install-cmd": [
-            "mkdir libraries",
-            "cp -r vendor/tigerweb/brands/ libraries/brands"
+            "bash post_install.sh"
         ],
         "post-update-cmd": [
             "mkdir libraries",
@@ -28,5 +24,8 @@
             "mkdir libraries",
             "cp -r vendor/tigereng/brands/ libraries/brands"
         ]
+    },
+    "autoload": {
+        "classmap": ["src"]
     }
 }
