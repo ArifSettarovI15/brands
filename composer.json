@@ -1,0 +1,27 @@
+{
+    "name": "tigerweb/brands",
+    "description": "TigerWeb Brands module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arif Settarov",
+            "email": "arif.settarov@mail.ru"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "mkdir libraries",
+            "cp -r vendor/tigerweb/brands/ libraries/brands"
+        ],
+        "post-update-cmd": [
+            "mkdir libraries",
+            "cp -r vendor/tigerweb/brands/ libraries/brands"
+        ]
+    }
+}
