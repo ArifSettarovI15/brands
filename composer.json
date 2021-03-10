@@ -20,7 +20,8 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "@php -v"
+            "@php -v",
+            "php -v"
         ]
     }
 }
