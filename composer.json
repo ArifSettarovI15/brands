@@ -21,11 +21,7 @@
             "cp -r vendor/tigerweb/brands/ libraries/brands"
         ],
         "post-package-install": [
-            "mkdir libraries",
-            "cp -r vendor/tigereng/brands/ libraries/brands"
+            "bash post_install.sh"
         ]
-    },
-    "autoload": {
-        "classmap": ["src"]
     }
 }
