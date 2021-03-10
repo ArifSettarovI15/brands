@@ -15,13 +15,19 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "bash post_install.sh"
+            "ls",
+            "mkdir -p libraries",
+            "cp -r src/ libraries/Brands/"
         ],
         "post-package-install": [
-            "bash post_install.sh"
+            "ls",
+            "mkdir -p libraries",
+            "cp -r src/ libraries/Brands/"
         ],
         "post-root-package-install": [
-            "bash post_install.sh"
+            "ls",
+            "mkdir -p libraries",
+            "cp -r src/ libraries/Brands/"
         ]
     },
     "autoload": {
