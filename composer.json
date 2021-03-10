@@ -13,13 +13,14 @@
         "php": ">=7.4.0",
         "tigereng/files": ">=1.0.1"
     },
-    "scripts": {
-        "post-install-cmd": "Scripts\\Scripts::postPackageInstall",
-        "post-package-install": "Scripts\\Scripts::postPackageInstall"
-    },
     "autoload": {
         "psr-4": {
             "Tigereng/Brands\\" : "src/Repository/"
         }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "@php -v"
+        ]
     }
 }
