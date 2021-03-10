@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tigereng/Brands" : "src/Repository/"
+            "Tigereng/Brands/Repository" : "src/Repository/"
         }
     }
 }
