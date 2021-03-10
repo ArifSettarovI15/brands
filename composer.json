@@ -15,19 +15,16 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "ls",
-            "mkdir -p libraries",
-            "cp -r src/ libraries/Brands/"
+            "@echo \"Test script install\"",
+            "echo \"Test script install 2\""
         ],
         "post-package-install": [
-            "ls",
-            "mkdir -p libraries",
-            "cp -r src/ libraries/Brands/"
+            "@echo \"Test script install\"",
+            "echo \"Test script install 2\""
         ],
         "post-root-package-install": [
-            "ls",
-            "mkdir -p libraries",
-            "cp -r src/ libraries/Brands/"
+            "@echo \"Test script install\"",
+            "echo \"Test script install 2\""
         ]
     },
     "autoload": {
