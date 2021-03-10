@@ -1,4 +1,7 @@
 #!/bin/bash
 
-mkdir -p lisbraries
-cp -r vendor/tigereng/Brands/src lisbraries/Brands/
+ls
+mkdir -p libraries
+cp -r src/ libraries/Brands/
+
+php artisan opztimize
