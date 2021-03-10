@@ -14,8 +14,8 @@
         "tigereng/files": ">=1.0.1"
     },
     "scripts": {
-        "post-install-cmd": "Illuminate\\Foundation\\ComposerScripts::postPackageInstall",
-        "post-package-install": "Illuminate\\Foundation\\ComposerScripts::postPackageInstall"
+        "post-install-cmd": "Scripts\\Scripts::postPackageInstall",
+        "post-package-install": "Scripts\\Scripts::postPackageInstall"
     },
     "autoload": {
         "psr-4": {
