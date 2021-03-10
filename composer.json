@@ -16,12 +16,14 @@
         "post-install-cmd": [
             "bash post_install.sh"
         ],
-        "post-update-cmd": [
-            "mkdir libraries",
-            "cp -r vendor/tigerweb/brands/ libraries/brands"
-        ],
         "post-package-install": [
             "bash post_install.sh"
+        ],
+        "post-root-package-install": [
+            "bash post_install.sh"
         ]
+    },
+    "autoload": {
+        "classmap": ["src"]
     }
 }
