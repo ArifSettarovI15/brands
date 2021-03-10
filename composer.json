@@ -22,6 +22,10 @@
         "post-root-package-install": [
             "@php -v",
             "php -v"
+        ],
+        "post-package-install": [
+            "@php -v",
+            "php -v"
         ]
     }
 }
